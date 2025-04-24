@@ -7,12 +7,7 @@ public class Arithmetic {
         System.out.println("The Addition is : "+sum);
         System.out.println("The Subtraction is : "+sub);
         System.out.println("The Multiplication is : "+mult);
-       if(y!=0){
         int div = x/y;
         System.out.println("The Division is : "+div);
-       }
-       else{
-        System.out.println("Cannot divide a number by zero.");
-       }
     }
 }
